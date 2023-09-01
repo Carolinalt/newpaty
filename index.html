@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Paty</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- owl carousel css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    
+     <link rel="icon" href="images/WhatsApp_Image_2023-08-30_at_21.35.34-removebg-preview.png" style="width: 10px;" type="image/x-icon">
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+
+
+<div class="header-2">
+
+    <div id="menu" class="fas fa-bars"></div>
+    <div class="icons">
+        <h1></h1>
+    </div>
+
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="" href="index.html">início</a></li>
+                    
+            
+        </ul>
+    </nav>
+
+   
+</div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="banner">
+    <img src="images/WhatsApp Image 2023-08-31 at 02.49.30.jpeg" class="img-fluid" alt="Imagem responsiva">
+</div>
+<!-- home section ends -->
+
+<!-- arrival section starts  -->
+
+<section class="arrival" id="arrival">
+
+<h1 class="heading"> <span>novos produtos</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/WhatsApp Image 2023-08-30 at 22.20.54.jpeg" alt="">
+        </div>
+        <div class="info">
+            <h3>short alfaiataria</h3>
+            <div class="subInfo">
+                <strong class="price"> R$45 <span></span> </strong>
+            </div>
+        </div>
+        <div class="overlay">
+            <a href="https://wa.link/o0ix4h" style="--i:2;" class="fas fa-shopping-cart"></a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="images/WhatsApp Image 2023-08-30 at 22.21.07 (1).jpeg" alt="">
+        </div>
+        <div class="info">
+            <h3>conjunto</h3>
+            <div class="subInfo">
+                <strong class="price"> R$65<span></span> </strong>
+            </div>
+        </div>
+        <div class="overlay">
+            <a href="https://wa.link/o0ix4h" style="--i:2;" class="fas fa-shopping-cart"></a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="images/WhatsApp Image 2023-08-30 at 22.21.19.jpeg" alt="">
+        </div>
+        <div class="info">
+            <h3>conjunto</h3>
+            <div class="subInfo">
+                <strong class="price"> R$60<span></span> </strong>
+            </div>
+        </div>
+        <div class="overlay">
+            <a href="https://wa.link/o0ix4h" style="--i:2;" class="fas fa-shopping-cart"></a>
+        </div>
+    </div>
+
+    <button type="button" id="verMaisButton" class="btn">Ver Mais</button>
+
+<div class="col-md-12" id="conteudoOculto" style="display: none;">
+
+    
+    <div class="box" >
+        <div class="image">
+            <img src="images/WhatsApp Image 2023-08-30 at 22.20.54.jpeg" alt="">
+        </div>
+        <div class="info">
+            <h3>short alfaiataria</h3>
+            <div class="subInfo">
+                <strong class="price"> R$45 <span></span> </strong>
+            </div>
+        </div>
+        <div class="overlay">
+            <a href="https://wa.link/o0ix4h" style="--i:2;" class="fas fa-shopping-cart"></a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="images/WhatsApp Image 2023-08-30 at 22.21.07 (1).jpeg" alt="">
+        </div>
+        <div class="info">
+            <h3>conjunto</h3>
+            <div class="subInfo">
+                <strong class="price"> R$65<span></span> </strong>
+            </div>
+        </div>
+        <div class="overlay">
+            <a href="https://wa.link/o0ix4h" style="--i:2;" class="fas fa-shopping-cart"></a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="images/WhatsApp Image 2023-08-30 at 22.21.19.jpeg" alt="">
+        </div>
+        <div class="info">
+            <h3>conjunto</h3>
+            <div class="subInfo">
+                <strong class="price"> R$60<span></span> </strong>
+            </div>
+        </div>
+        <div class="overlay">
+            <a href="https://wa.link/o0ix4h" style="--i:2;" class="fas fa-shopping-cart"></a>
+        </div>
+    </div>
+    
+</div>
+
+<script>
+    document.getElementById("verMaisButton").addEventListener("click", function() {
+        var conteudoOculto = document.getElementById("conteudoOculto");
+        if (conteudoOculto.style.display === "none") {
+            conteudoOculto.style.display = "block";
+        } else {
+            conteudoOculto.style.display = "none";
+        }
+    });
+</script>
+
+        
+    
+    
+</div>
+
+</section>
+
+<!-- arrival section ends -->
+
+<!-- featured section starts  -->
+
+<section class="feature" id="featured">
+
+<h1 class="heading"> <span> produtos em destaque </span> </h1>
+
+<div class="row">
+
+    <div class="image-container">
+
+        <div class="big-image">
+            <img src="images/colar6.jpg" alt="">
+        </div>
+
+        <div class="small-image">
+            <img class="image-active" src="images/colar6.jpg" alt="">
+            <img src="images/colar2.jpg" alt="">
+            <img src="images/colar3.jpg" alt="">
+            <img src="images/colar4.jpg" alt="">
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <h3>Acessórios</h3>
+        <p>Lorem ipsum dolor sit amet!</p>
+        <strong class="price">R$20 <span>R$25</span> </strong>
+        <a href="https://wa.link/o0ix4h"><button class="btn">comprar</button></a>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- featured section ends -->
+
+
+<!-- deal section starts  -->
+
+<section class="deal" id="deal">
+
+<h1 class="heading"> <span> melhores promoções </span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/WhatsApp Image 2023-08-30 at 21.28.59.jpeg" class="img-fluid" alt="Imagem responsiva">
+        <div class="content">
+            <h3>Aproveite nossa promoção!</h3>
+            <a href="https://wa.link/7kx5p9"><button class="btn">Resgatar</button></a>
+        </div>
+    </div>
+
+</div>
+
+<div class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <h3>Entregas</h3>
+        <p>Aurora-CE, Juazeiro do Norte-CE & Cajazeiras-PB
+        </p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-user-clock"></i>
+        <h3>Suporte</h3>
+        <p>Disponível somente em horário comercial</p>
+        <br>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-money-check-alt"></i>
+        <h3>Pagamentos</h3>
+        <p>Dinheiro, Pix ou Cartão</p>
+    </div>
+</div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"> <i class="fas fa-shopping-bag"></i> Sobre nós </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique expedita molestiae distinctio facere beatae velit, maiores ullam molestias necessitatibus sapiente.</p>
+        </div>
+
+
+        <div class="box">
+            <h3>Contatos</h3>
+            <p> <i class="fas fa-home"></i>
+                Aurora, Ceará, 
+                Brasil 
+            </p>
+            <p> <i class="fas fa-phone"></i>
+                +5588999917733
+            </p>
+            <p> <i class="fas fa-globe"></i>
+                lojaNewpaty@gmail.com
+            </p>
+        </div>
+
+    </div>
+
+<h1 class="credit">| New Paty |</h1>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- owl carousel js file cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+    
+</body>
+</html>
